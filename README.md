@@ -1,4 +1,4 @@
 # Projet convertiseur acrtnet-DMX
 
-![image](chemin/vers/image.jpg "Titre de l'image")
+![Tableau](https://github.com/claireAnot/3D_Projet/edit/main/images/tableau_resume.jpg "Tableau résumé")
 
