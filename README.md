@@ -16,3 +16,5 @@
 |STM32G491RET6 | https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32G491RET6?qs=eP2BKZSCXI4QobUu7xPUDw%3D%3D&srsltid=AfmBOorBPL-STKsK2rVMfzQQ7Oz4K7U0JYCj0qxpDp0Ew72G5G8mcLyb|
 |NUCLEO-G491RE | https://www.mouser.fr/ProductDetail/STMicroelectronics/NUCLEO-G491RE?qs=IS%252B4QmGtzzobNcC7Lmhp%252Bg%3D%3D|
 
+## Pour la prochaine fois
+Claire : branchements ethernet, W5500, nucleo L476RG. Projet STM32CubeIDE "test_artnet_spi", compiler le driver ioLibrary -> erreurs sur ce point
