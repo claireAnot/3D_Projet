@@ -8,12 +8,9 @@
 
 |Composant|Image|
 |:-------:|:---:|
-|W5500|![Tableau]([https://github.com/claireAnot/3D_Projet/blob/main/images/tableau_resume.jpg](https://github.com/claireAnot/3D_Projet/blob/main/images/W5500.png) "Tableau résumé")
-|
-|UART-RS485|![Tableau](https://github.com/claireAnot/3D_Projet/blob/main/images/tableau_resume.jpg "Tableau résumé")
-|
-|STM32G491RET6|![Tableau](https://github.com/claireAnot/3D_Projet/blob/main/images/tableau_resume.jpg "Tableau résumé")
-|
+|W5500|![IMG](https://github.com/claireAnot/3D_Projet/blob/main/images/W5500.png "W5500")|
+|UART-RS485|![IMG2](https://github.com/claireAnot/3D_Projet/blob/main/images/tableau_resume.jpg "Tableau")|
+|STM32G491RET6|![IMG3](https://github.com/claireAnot/3D_Projet/blob/main/images/STM32G941RET6.png "STM")|
 
 ## Carte STM32
 |Composant|Référence|
