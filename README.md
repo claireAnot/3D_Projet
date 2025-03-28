@@ -10,7 +10,7 @@
 |:-------:|:---:|
 |W5500|![IMG](https://github.com/claireAnot/3D_Projet/blob/main/images/W5500.png "W5500")|
 |UART-RS485|![IMG2](https://github.com/claireAnot/3D_Projet/blob/main/images/tableau_resume.jpg "Tableau")|
-|STM32G491RET6|![IMG3](https://github.com/claireAnot/3D_Projet/blob/main/images/STM32G941RET6.png "STM")|
+|STM32G431KBT6|![IMG3](https://github.com/claireAnot/3D_Projet/blob/main/images/stm32G431.jpg "STM")|
 
 ## Carte STM32
 |Composant|Référence|
