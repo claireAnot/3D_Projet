@@ -4,13 +4,15 @@
 
 [Lien pour accéder/modifier le planning](https://docs.google.com/spreadsheets/d/186soKjPCN-PK-JzUTAcS0mT16IVo6W8UJx_HTyjIL5Y/edit?usp=sharing)
 
+## Synoptique du code
+
+![STMarchi](https://github.com/claireAnot/3D_Projet/blob/main/images/fonctionnement_interne_STM_projet.png "STMarchi")
+
 ## Listes des composants utiliser pour le projet
 
-|Composant|Image|
-|:-------:|:---:|
-|W5500|![IMG](https://github.com/claireAnot/3D_Projet/blob/main/images/W5500.png "W5500")|
-|UART-RS485|![IMG2](https://github.com/claireAnot/3D_Projet/blob/main/images/uart_ttl_to_rs485_two-way_converter_04.jpg "Tableau")|
-|STM32G431KBT6|![IMG3](https://github.com/claireAnot/3D_Projet/blob/main/images/stm32G431.jpg "STM")|
+|W5500|UART-RS485|STM32G431KBT6|
+|:---:|:--------:|:-----------:|
+|![IMG](https://github.com/claireAnot/3D_Projet/blob/main/images/W5500.png "W5500")|![IMG2](https://github.com/claireAnot/3D_Projet/blob/main/images/uart_ttl_to_rs485_two-way_converter_04.jpg "Tableau")|![IMG3](https://github.com/claireAnot/3D_Projet/blob/main/images/stm32G431.jpg "STM")|
 
 ## Carte STM32
 |Composant|Référence|
