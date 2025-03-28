@@ -23,3 +23,6 @@
 - CROCE Léonard
 - ANOT-DELCOURT Claire
 - BEAUVARLET Antoine
+
+## Pour la prochaine fois
+Claire : Reprendre projet_artnet_api. Ajouter le "driver" ioLibrary ne créant un dossier Lib comme dans test_artnet_spi. Puis continuer la dessus et essayer de recevoir des trames artnet.
