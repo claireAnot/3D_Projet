@@ -23,7 +23,3 @@
 - CROCE Léonard
 - ANOT-DELCOURT Claire
 - BEAUVARLET Antoine
-
-
-## Pour la prochaine fois
-Claire : branchements ethernet, W5500, nucleo L476RG. Projet STM32CubeIDE "test_artnet_spi", compiler le driver ioLibrary -> erreurs sur ce point
