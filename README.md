@@ -20,11 +20,11 @@
 |STM32G491RET6 | https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32G491RET6?qs=eP2BKZSCXI4QobUu7xPUDw%3D%3D&srsltid=AfmBOorBPL-STKsK2rVMfzQQ7Oz4K7U0JYCj0qxpDp0Ew72G5G8mcLyb|
 |NUCLEO-G491RE | https://www.mouser.fr/ProductDetail/STMicroelectronics/NUCLEO-G491RE?qs=IS%252B4QmGtzzobNcC7Lmhp%252Bg%3D%3D|
 
+## Carte Nucleo L476RG
+![Carte]("Nucleo L476RG")
+
 ## Participants
 - MONNIER Nathan
 - CROCE Léonard
 - ANOT-DELCOURT Claire
 - BEAUVARLET Antoine
-
-## Pour la prochaine fois
-Claire : Reprendre projet_artnet_api. Ajouter le "driver" ioLibrary en créant un dossier Lib comme dans test_artnet_spi. Puis continuer la dessus et essayer de recevoir des trames artnet.
