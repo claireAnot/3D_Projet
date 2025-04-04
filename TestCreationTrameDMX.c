@@ -11,15 +11,24 @@ int main(void) {
     HAL_Init();                                                 // Initialisation de la HAL
     UART1_Init();                                               // Initialisation de l'UART1
 
-    unsigned char dmxFrame[DMX_CHANNELS];
+
+    // Exemple de données Art-Net (à remplacer par vos données réelles)
+    unsigned char artnetData[DMX_CHANNELS];
+
+    for (int i = 0; i < DMX_CHANNELS; i++) {
+        artnetData[i] = i % 256;
+    }
+
 
     // Initialisation de la trame DMX (exemple)
+    unsigned char dmxFrame[DMX_CHANNELS];
+
     for (int i = 0; i < DMX_CHANNELS; i++) {
         dmxFrame[i] = i % 256;                                  // Exemple de valeurs
     }
 
     while (1) {
-        DMX_Send(dmxFrame, DMX_CHANNELS);
+        ArtNetToDMX(artnetData, DMX_CHANNELS); // Convertir et envoyer les données Art-Net en DMX
         HAL_Delay(22);                                          // Délai entre les trames (22ms pour le DMX)
     }
 }
@@ -47,4 +56,12 @@ void DMX_Send(unsigned char *dmxData, uint16_t length) {
     HAL_UART_Transmit(&huart1, (uint8_t *)"\xff", 1, 8);
     // Données DMX
     HAL_UART_Transmit(&huart1, dmxData, length, HAL_MAX_DELAY);
+}
+
+void ArtNetToDMX(unsigned char *artnetData, uint16_t artnetLength) {
+    if (artnetLength > DMX_CHANNELS) {
+        artnetLength = DMX_CHANNELS;                            // Limiter à 512 canaux DMX
+    }
+
+    DMX_Send(artnetData, artnetLength);                         // Envoyer les données Art-Net directement comme données DMX
 }
