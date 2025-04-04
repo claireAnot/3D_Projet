@@ -28,3 +28,5 @@
 - CROCE Léonard
 - ANOT-DELCOURT Claire
 - BEAUVARLET Antoine
+
+https://github.com/MahyarTabari/STM32-W5500-Ethernet-Library/blob/main/Core/Src/w5500/w5500_spi.c
