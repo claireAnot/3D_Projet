@@ -21,7 +21,7 @@
 |NUCLEO-G491RE | https://www.mouser.fr/ProductDetail/STMicroelectronics/NUCLEO-G491RE?qs=IS%252B4QmGtzzobNcC7Lmhp%252Bg%3D%3D|
 
 ## Carte Nucleo L476RG
-![Carte]("Nucleo L476RG")
+![Carte](https://github.com/claireAnot/3D_Projet/blob/main/images/Nucleo%20L476RG.PNG "Nucleo L476RG")
 
 ## Participants
 - MONNIER Nathan
