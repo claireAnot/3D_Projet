@@ -31,8 +31,6 @@
 
 ## Prochaine fois
 ```
-Dans w5500_spi.c, ces lignes de codes bouclent indéfiniement : le slave (W5500) ne répond pas au master (L476RG)
-// wait until the data from the slave is received,
-// and the RXNE flag is set
-while((hspi2.Instance->SR & SPI_FLAG_RXNE) != SPI_FLAG_RXNE);
+Initialisation w5500 réussie
+Problème initialisation adresse IP
 ```
