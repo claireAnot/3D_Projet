@@ -1,0 +1,12 @@
+../Core/Src/w5500/socket.c:105:8:socket	19
+../Core/Src/w5500/socket.c:228:8:close	4
+../Core/Src/w5500/socket.c:271:8:listen	6
+../Core/Src/w5500/socket.c:287:8:connect	12
+../Core/Src/w5500/socket.c:327:8:disconnect	7
+../Core/Src/w5500/socket.c:347:9:send	16
+../Core/Src/w5500/socket.c:415:9:recv	14
+../Core/Src/w5500/socket.c:520:9:sendto	19
+../Core/Src/w5500/socket.c:624:9:recvfrom	25
+../Core/Src/w5500/socket.c:806:9:ctlsocket	14
+../Core/Src/w5500/socket.c:852:9:setsockopt	14
+../Core/Src/w5500/socket.c:905:9:getsockopt	17

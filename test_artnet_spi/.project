@@ -29,4 +29,10 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>LIB</name>
+			<value>file:/C:/Users/admin/Documents/COURS/ENSEA/3DA/Semestre_10/STM32CubeIDE/3D_Projet/test_artnet_spi/Lib/ioLibrary_Driver</value>
+		</variable>
+	</variableList>
 </projectDescription>
