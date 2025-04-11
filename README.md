@@ -32,5 +32,5 @@
 ## Prochaine fois
 ```
 Initialisation w5500 réussie
-Problème initialisation adresse IP
+Problème initialisation adresse IP -> revoir les infos de chat GPT. Problème write/read burst/byte -> à revoir et à débeuguer
 ```
