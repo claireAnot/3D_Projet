@@ -8,8 +8,8 @@
 #ifndef SRC_W5500_W5500_SPI_H_
 #define SRC_W5500_W5500_SPI_H_
 
-#define SCS_PORT 	GPIOB
-#define SCS_PIN 	GPIO_PIN_12
+#define SCS_PORT 	GPIOA
+#define SCS_PIN 	GPIO_PIN_4
 #define RESET_PORT  GPIOC
 #define RESET_PIN	GPIO_PIN_8
 

@@ -166,18 +166,8 @@ int8_t socket(uint8_t sn, uint8_t protocol, uint16_t port, uint8_t flag)
    	      break;
    	}
    }
-	// ----------
-	wiz_NetInfo check;
-	wizchip_getnetinfo(&check);
-	printf("IP configuree : %d.%d.%d.%d\r\n", check.ip[0], check.ip[1], check.ip[2], check.ip[3]);
-	// ----------
 
 	close(sn);
-
-	// ----------
-	wizchip_getnetinfo(&check);
-	printf("IP configuree : %d.%d.%d.%d\r\n", check.ip[0], check.ip[1], check.ip[2], check.ip[3]);
-	// ----------
 
 	//M20150601
 	#if _WIZCHIP_ == 5300
@@ -192,17 +182,7 @@ int8_t socket(uint8_t sn, uint8_t protocol, uint16_t port, uint8_t flag)
 	}
    setSn_PORT(sn,port);	
 
-   // ----------
-   	wizchip_getnetinfo(&check);
-   	printf("IP configuree : %d.%d.%d.%d\r\n", check.ip[0], check.ip[1], check.ip[2], check.ip[3]);
-   	// ----------
-
    setSn_CR(sn,Sn_CR_OPEN);
-
-   // ----------
-   	wizchip_getnetinfo(&check);
-   	printf("IP configuree : %d.%d.%d.%d\r\n", check.ip[0], check.ip[1], check.ip[2], check.ip[3]);
-   	// ----------
 
    while(getSn_CR(sn));
    //A20150401 : For release the previous sock_io_mode
@@ -215,11 +195,6 @@ int8_t socket(uint8_t sn, uint8_t protocol, uint16_t port, uint8_t flag)
    //sock_pack_info[sn] = 0;
    sock_pack_info[sn] = PACK_COMPLETED;
    //
-
-   // ----------
-   	wizchip_getnetinfo(&check);
-   	printf("IP configuree : %d.%d.%d.%d\r\n", check.ip[0], check.ip[1], check.ip[2], check.ip[3]);
-   	// ----------
 
    while(getSn_SR(sn) == SOCK_CLOSED);
    return (int8_t)sn;

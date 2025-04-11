@@ -147,7 +147,7 @@ void w5500_pins_init()
 	HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 }
 
-void w5500_init(wiz_NetInfo *net_info)
+void w5500_init()
 {
 	// the available size of w5500 is 32KB
 	// w5500 supports 8 independents sockets simultaneously
@@ -159,7 +159,7 @@ void w5500_init(wiz_NetInfo *net_info)
 			{2, 2, 2, 2, 2, 2, 2, 2}		// transmit buffer size
 	};
 
-	//uint8_t tmp = 0xFF;
+	uint8_t tmp = 0xFF;
 
 
 	// initialize RESET and SCS pins
@@ -173,8 +173,7 @@ void w5500_init(wiz_NetInfo *net_info)
 	HAL_GPIO_WritePin(RESET_PORT, RESET_PIN, GPIO_PIN_RESET);
 
 	// busy wait for a while and keep the RESET pin 0
-	//while(tmp--);
-	HAL_Delay(1000);
+	while(tmp--);
 
 
 	HAL_GPIO_WritePin(RESET_PORT, RESET_PIN, GPIO_PIN_SET);
@@ -191,6 +190,7 @@ void w5500_init(wiz_NetInfo *net_info)
 	reg_wizchip_spiburst_cbfunc(wizchip_read_burst, wizchip_write_burst);
 
 
+
 	// allocate the specified memory for each socket
 	if (ctlwizchip(CW_INIT_WIZCHIP, (void*)memory_for_each_socket) == -1)
 	{
@@ -198,7 +198,6 @@ void w5500_init(wiz_NetInfo *net_info)
 		while(1);
 	}
 
-	ctlwizchip(CN_SET_NETINFO, net_info);
 	printf("WIZCHIP initialization done successfully\r\n");
 }
 

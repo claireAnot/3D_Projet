@@ -45,24 +45,14 @@ void callback_ip_conflict();
  * @param dns DNS server IP address
  * @retval None
  */
-void static_host_configuration(uint8_t mac[6], uint8_t ip[4], uint8_t sn[4], uint8_t gw[4], uint8_t dns[4])
+void static_host_configuration(wiz_NetInfo *net_info)
 {
-    wiz_NetInfo net_info = {
-        .mac = {mac[0], mac[1], mac[2], mac[3], mac[4], mac[5]},  // Copy MAC address
-        .ip = {ip[0], ip[1], ip[2], ip[3]},                      // Copy IP address
-        .sn = {sn[0], sn[1], sn[2], sn[3]},                      // Copy subnet mask
-        .gw = {gw[0], gw[1], gw[2], gw[3]},                      // Copy gateway
-        .dns = {dns[0], dns[1], dns[2], dns[3]},                 // Copy DNS server
-        .dhcp = NETINFO_STATIC                                   // Use static IP
-    };
-
     printf("Setting up static host configuration...\r\n");
 
     // Set network configuration
-    ctlnetwork(CN_SET_NETINFO, (void*)&net_info);
+    ctlnetwork(CN_SET_NETINFO, (void*)net_info);
 
     printf("Static IP configuration is done successfully.\r\n");
-
 }
 
 /**

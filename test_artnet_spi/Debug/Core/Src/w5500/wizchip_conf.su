@@ -28,9 +28,9 @@
 ../Core/Src/w5500/wizchip_conf.c:780:6:wizphy_getphyconf	24	static
 ../Core/Src/w5500/wizchip_conf.c:819:6:wizphy_getphystat	24	static
 ../Core/Src/w5500/wizchip_conf.c:826:8:wizphy_setphypmode	24	static
-../Core/Src/w5500/wizchip_conf.c:852:6:wizchip_setnetinfo	16	static
-../Core/Src/w5500/wizchip_conf.c:865:6:wizchip_getnetinfo	16	static
-../Core/Src/w5500/wizchip_conf.c:878:8:wizchip_setnetmode	24	static
-../Core/Src/w5500/wizchip_conf.c:892:14:wizchip_getnetmode	8	static
-../Core/Src/w5500/wizchip_conf.c:897:6:wizchip_settimeout	16	static
-../Core/Src/w5500/wizchip_conf.c:903:6:wizchip_gettimeout	24	static
+../Core/Src/w5500/wizchip_conf.c:852:6:wizchip_setnetinfo	48	static
+../Core/Src/w5500/wizchip_conf.c:870:6:wizchip_getnetinfo	16	static
+../Core/Src/w5500/wizchip_conf.c:883:8:wizchip_setnetmode	24	static
+../Core/Src/w5500/wizchip_conf.c:897:14:wizchip_getnetmode	8	static
+../Core/Src/w5500/wizchip_conf.c:902:6:wizchip_settimeout	16	static
+../Core/Src/w5500/wizchip_conf.c:908:6:wizchip_gettimeout	24	static

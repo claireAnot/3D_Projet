@@ -24,8 +24,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <stdio.h>
-
 #include "w5500/wizchip_conf.h"
 #include "w5500/w5500_spi.h"
 #include "w5500/w5500_phy.h"
@@ -59,9 +57,7 @@ wiz_NetInfo net_info = {
 		.dhcp = NETINFO_STATIC                        // Use static IP
 };
 
-
 uint8_t spi_rx_buffer[10];
-uint8_t spi_tx_buffer[] = "A"; // DATA to send
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -135,22 +131,16 @@ int main(void)
 	MX_USART2_UART_Init();
 	MX_SPI1_Init();
 	/* USER CODE BEGIN 2 */
-	HAL_SPI_Transmit(&hspi1, spi_tx_buffer, 1, 1000); // Initialize transmission
-	HAL_Delay(100);
+	w5500_init();
 
-	printf("---------- AVANT w5500_init ----------\r\n");
-	w5500_init(&net_info);
-	printf("---------- APRES w5500_init ----------\r\n");
-
-	wizchip_setnetinfo(&net_info);
+	printf("---------- AVANT static_host_configuration ----------\r\n");
+	static_host_configuration(&net_info);
+	//dynamic_host_configuration(net_info.mac);
+	printf("---------- APRES static_host_configuration ----------\r\n");
 
 	wiz_NetInfo check;
 	wizchip_getnetinfo(&check);
 	printf("IP configuree : %d.%d.%d.%d\r\n", check.ip[0], check.ip[1], check.ip[2], check.ip[3]);
-
-	printf("---------- AVANT dynamic_host_configuration ----------\r\n");
-	dynamic_host_configuration(net_info.mac);
-	printf("---------- APRES dynamic_host_configuration ----------\r\n");
 
 	printf("---------- AVANT check_cable_presence ----------\r\n");
 	check_cable_presence();

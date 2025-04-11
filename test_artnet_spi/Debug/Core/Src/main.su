@@ -1,6 +1,6 @@
-../Core/Src/main.c:75:5:__io_putchar	16	static
-../Core/Src/main.c:83:6:Receive_SPI_Data	8	static
-../Core/Src/main.c:91:6:HAL_SPI_RxCpltCallback	16	static
-../Core/Src/main.c:110:5:main	48	static
-../Core/Src/main.c:188:6:SystemClock_Config	96	static
-../Core/Src/main.c:241:6:Error_Handler	4	static,ignoring_inline_asm
+../Core/Src/main.c:71:5:__io_putchar	16	static
+../Core/Src/main.c:79:6:Receive_SPI_Data	8	static
+../Core/Src/main.c:87:6:HAL_SPI_RxCpltCallback	16	static
+../Core/Src/main.c:106:5:main	48	static
+../Core/Src/main.c:178:6:SystemClock_Config	96	static
+../Core/Src/main.c:231:6:Error_Handler	4	static,ignoring_inline_asm
