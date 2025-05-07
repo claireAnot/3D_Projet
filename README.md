@@ -29,12 +29,14 @@
 - ANOT-DELCOURT Claire
 - BEAUVARLET Antoine
 
-## Prochaine fois
+## Claire
 ```
-J'ai galéré à compiler le driver permettant d'utiliser le W5500.
-J'essaie encore de faire fonctionner le W5500.
+J'ai galéré à compiler le driver permettant d'utiliser le W5500. Mais c y est.
+
+J'essaie de faire fonctionner le W5500.
 De base, j'essayais à partir de repos Github et de codes d'examples.
+J'ai trouvé un autre driver presque similaire. Les comparer et voir si j'intègre le nouveau à la place de l'ancien. (dans Downloads/iolibrary_v102)
 Actuellement, je lis les datasheet sur Wiznet (cf. favoris)
 Je travaille dans test_artnet_spi, donc avec une STM32-L476RGTx.
-Dans project_artnet_api, c'était la tentative avec la STM32-G431, qui est finalement une NUCLEO-L432KC.
+Dans project_artnet_api, c'était la tentative avec la STM32-G431, qui est finalement une NUCLEO-L432KC !!!!!
 ```
