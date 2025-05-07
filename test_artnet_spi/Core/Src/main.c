@@ -28,6 +28,7 @@
 #include "w5500/w5500_spi.h"
 #include "w5500/w5500_phy.h"
 #include "w5500/w5500_host_config.h"
+#include "w5500/socket.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -37,7 +38,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -50,7 +50,7 @@
 /* USER CODE BEGIN PV */
 wiz_NetInfo net_info = {
 		.mac = {0x56, 0xC0, 0x70, 0xD2, 0x48, 0x10},  // Locally administered MAC address
-		.ip = {192, 168, 1, 100},                     // IP address
+		.ip = {192, 168, 56, 100},                    // IP address
 		.sn = {255, 255, 255, 0},                     // Subnet mask
 		.gw = {192, 168, 1, 1},                       // Gateway
 		.dns = {8, 8, 8, 8},                          // DNS server
@@ -159,11 +159,8 @@ int main(void)
 	/* USER CODE BEGIN WHILE */
 	while (1)
 	{
-		for (int i = 0; i < 100; i++)
-		{
-			printf("%i: Hello World!\r\n", i);
-			HAL_Delay(1500);
-		}
+		printf("----- WHILE -----\r\n");
+		HAL_Delay(1000);
 		/* USER CODE END WHILE */
 
 		/* USER CODE BEGIN 3 */

@@ -1,6 +1,6 @@
-../Core/Src/main.c:71:5:__io_putchar	1
-../Core/Src/main.c:79:6:Receive_SPI_Data	1
-../Core/Src/main.c:87:6:HAL_SPI_RxCpltCallback	3
-../Core/Src/main.c:106:5:main	2
-../Core/Src/main.c:178:6:SystemClock_Config	4
-../Core/Src/main.c:231:6:Error_Handler	1
+../Core/Src/main.c:75:5:__io_putchar	1
+../Core/Src/main.c:83:6:Receive_SPI_Data	1
+../Core/Src/main.c:91:6:HAL_SPI_RxCpltCallback	3
+../Core/Src/main.c:110:5:main	3
+../Core/Src/main.c:221:6:SystemClock_Config	4
+../Core/Src/main.c:274:6:Error_Handler	1
