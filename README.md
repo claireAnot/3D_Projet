@@ -31,6 +31,10 @@
 
 ## Prochaine fois
 ```
-Initialisation w5500 réussie
-Problème initialisation adresse IP -> revoir les infos de chat GPT. Problème write/read burst/byte -> à revoir et à débeuguer
+J'ai galéré à compiler le driver permettant d'utiliser le W5500.
+J'essaie encore de faire fonctionner le W5500.
+De base, j'essayais à partir de repos Github et de codes d'examples.
+Actuellement, je lis les datasheet sur Wiznet (cf. favoris)
+Je travaille dans test_artnet_spi, donc avec une STM32-L476RGTx.
+Dans project_artnet_api, c'était la tentative avec la STM32-G431, qui est finalement une NUCLEO-L432KC.
 ```
