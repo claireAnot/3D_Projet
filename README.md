@@ -31,7 +31,7 @@
 
 ## Claire
 ```
-J'ai galéré à compiler le driver permettant d'utiliser le W5500. Mais c y est.
+J'ai galéré à compiler le driver permettant d'utiliser le W5500. Mais ça y est.
 
 J'essaie de faire fonctionner le W5500.
 De base, j'essayais à partir de repos Github et de codes d'examples.
