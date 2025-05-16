@@ -37,9 +37,18 @@ Nous avons essayé de travailler avec la STM32-G431KBT6, qui est proche de la ca
 
 Nathan et Antoine : 
 - Envoyer des trames DMX sur l'UART
+![image](https://github.com/user-attachments/assets/e19e2ff6-4516-412d-9c82-8e909f8d36eb)
+
 
 Claire et Antoine : 
 - Recevoir des trames ARTNET sur le SPI
+- Difficultés rencontrées
+  - Intégration d'un driver pour utiliser le W5500
+  - Initialisation du W5500
+  - Initialisation de l'adresse IP
+
+Bref, l'utilisation du driver n'a pas aboutie et nous n'avons pas eu le temps de mettre en place une autre solution pour communiquer avec le W5500.
+
 
 ### Hardware
 Léonard :
