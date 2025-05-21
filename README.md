@@ -40,14 +40,13 @@ Nathan et Antoine :
 ![image](https://github.com/user-attachments/assets/e19e2ff6-4516-412d-9c82-8e909f8d36eb)
 
 
-Claire et Antoine : 
-- Recevoir des trames ARTNET sur le SPI
-- Difficultés rencontrées
-  - Intégration d'un driver pour utiliser le W5500
-  - Initialisation du W5500
-  - Initialisation de l'adresse IP
-
-Bref, l'utilisation du driver n'a pas aboutie et nous n'avons pas eu le temps de mettre en place une autre solution pour communiquer avec le W5500.
+Claire et Antoine + Léonard sur les 2 dernières séances : 
+- Objectif : Recevoir des trames ARTNET sur le SPI
+- Déroulement :
+  - Intégration d'un driver (ioLibrary : https://docs.wiznet.io/Product/iEthernet/W5500/driver) pour utiliser le W5500 -> compilation fastidieuse mais réussie.
+  - Utilisation du driver : nous avons eu la *merveilleuse* idée de nous inspirer des GitHub d'autres personnes. Nous aurions plutôt dû écrire nos propres fonctions et essayer de le faire fonctionner à notre manière pour notre carte spécifiquement -> ce que nous avons fait à la dernière séance.
+  - Initialisation du W5500 : fastidieuse mais réussie après l'utilisation de nos propres fonctions
+  - Réception de trames ARTNET sur le W5500 : en cours
 
 
 ### Hardware
