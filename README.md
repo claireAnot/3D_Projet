@@ -36,14 +36,15 @@ Nucleo L476RG
 Nous avons essayé de travailler avec la STM32-G431KBT6, qui est proche de la carte que nous voulons utiliser pour la maquette finale : la STM32-G491RET6. C'était enfaite une NUCLEO-L432KC !! La carte était dans le mauvais emballage et nous avons chacun perdu beaucoup de temps à essayer de la faire fonctionner avant de s'en rendre compte !
 
 Nathan et Antoine : 
-- Envoyer des trames DMX sur l'UART
+- Objectif : Envoyer des trames DMX sur l'UART
 ![image](https://github.com/user-attachments/assets/e19e2ff6-4516-412d-9c82-8e909f8d36eb)
 
 
 Claire et Antoine + Léonard sur les 2 dernières séances : 
 - Objectif : Recevoir des trames ARTNET sur le SPI
 - Déroulement :
-  - Intégration d'un driver (ioLibrary : https://docs.wiznet.io/Product/iEthernet/W5500/driver) pour utiliser le W5500 -> compilation fastidieuse mais réussie.
+  - Création d'un projet utilisé avec la NUCLEO-L476RG
+  - Intégration d'un driver pour utiliser le W5500 -> compilation fastidieuse mais réussie. (ioLibrary : https://docs.wiznet.io/Product/iEthernet/W5500/driver)
   - Utilisation du driver : nous avons eu la *merveilleuse* idée de nous inspirer des GitHub d'autres personnes. Nous aurions plutôt dû écrire nos propres fonctions et essayer de le faire fonctionner à notre manière pour notre carte spécifiquement -> ce que nous avons fait à la dernière séance.
   - Initialisation du W5500 : fastidieuse mais réussie après l'utilisation de nos propres fonctions
   - Réception de trames ARTNET sur le W5500 : en cours
