@@ -6,6 +6,11 @@
 - BEAUVARLET Antoine
 - ANOT-DELCOURT Claire
 
+```
+Note : test_artnet_spi -> projet STM32CubeIDE avec la NUCLEO-L476RG
+       project_artnet_api -> projet STM32CubeIDE avec la "fausse" STM32-G431KBT6, NON FONCTIONNEL
+```
+
 Notre projet consiste à créer un système capable de convertir des trames ARTNET en DMX, dans le but de contrôler des lumières plus facilement.
 ![Tableau](https://github.com/claireAnot/3D_Projet/blob/main/images/tableau_resume.jpg "Tableau résumé")
 
