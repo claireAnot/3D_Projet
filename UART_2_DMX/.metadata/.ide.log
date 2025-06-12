@@ -1,0 +1,48 @@
+2025-06-02 00:01:03,578 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 868142784 Bytes (1073741824)
+2025-06-02 00:01:05,587 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 906413760 Bytes (1073741824)
+2025-06-02 00:01:09,726 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 994494144 Bytes (1073741824)
+2025-06-02 00:01:10,251 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-06-02 00:01:10,252 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-02 00:01:10,252 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-02 00:01:10,252 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-06-02 00:01:10,252 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-06-02 00:01:10,252 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-06-02 00:01:10,253 [INFO] CodeGenerator:882 - code generatio: config db path: /opt/st/stm32cubeide_1.18.0/plugins/com.st.stm32cube.common.mx_6.14.0.202502271554//db/
+2025-06-02 00:01:10,389 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/MXTmpFiles/license.tmp_save
+2025-06-02 00:01:10,766 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/MXTmpFiles/license.tmp
+2025-06-02 00:01:10,842 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/gpio.c_save
+2025-06-02 00:01:10,978 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/gpio.c
+2025-06-02 00:01:10,980 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/gpio.h_save
+2025-06-02 00:01:11,064 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/gpio.h
+2025-06-02 00:01:11,219 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/usart.c_save
+2025-06-02 00:01:11,392 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/usart.c
+2025-06-02 00:01:11,394 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/usart.h_save
+2025-06-02 00:01:11,472 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/usart.h
+2025-06-02 00:01:11,477 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/stm32l4xx_it.c_save
+2025-06-02 00:01:11,584 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/stm32l4xx_it.c
+2025-06-02 00:01:11,586 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/stm32l4xx_it.h_save
+2025-06-02 00:01:11,661 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/stm32l4xx_it.h
+2025-06-02 00:01:11,668 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/stm32l4xx_hal_msp.c_save
+2025-06-02 00:01:11,775 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/stm32l4xx_hal_msp.c
+2025-06-02 00:01:11,776 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/MXTmpFiles/system.tmp_save
+2025-06-02 00:01:11,836 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/MXTmpFiles/system.tmp
+2025-06-02 00:01:11,839 [INFO] CodeEngine:319 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/stm32l4xx_hal_conf.h_save
+2025-06-02 00:01:11,899 [INFO] CodeEngine:343 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/stm32l4xx_hal_conf.h
+2025-06-02 00:01:11,945 [INFO] ApiDbMcu:508 - Load IP Config File for USART2
+2025-06-02 00:01:11,962 [INFO] ApiDbMcu:508 - Load IP Config File for USART3
+2025-06-02 00:01:11,966 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2025-06-02 00:01:11,972 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/main.h_save
+2025-06-02 00:01:12,073 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Inc/main.h
+2025-06-02 00:01:12,075 [INFO] CodeEngine:263 - oldGeneratedFile, /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/main.c_save
+2025-06-02 00:01:12,205 [INFO] CodeEngine:287 - Generated code: /home/lcroce/Documents/projet_artnet_dmx/UART_2_DMX/UART_2_DMX/Core/Src/main.c
+2025-06-02 00:01:12,463 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 56mS.
+2025-06-02 00:01:12,467 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2025-06-02 00:01:12,551 [INFO] ConfigFileManager:1590 - The Die is : DIE415
+2025-06-02 00:01:12,557 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-06-02 00:01:12,561 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-06-02 00:01:12,572 [INFO] ApiDbMcu:508 - Load IP Config File for TOUCHSENSING
+2025-06-02 00:01:12,578 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-06-02 00:01:12,582 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2025-06-02 00:01:13,629 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1162mS.
+2025-06-02 00:01:13,630 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-06-02 00:01:13,631 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
